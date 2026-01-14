@@ -2,8 +2,7 @@
 
 **Approval Rationale Tracker (ART)** is a governance and decision-memory system for commercial loan portfolios.
 
-ART addresses a critical but overlooked problem in lending operations:  
-**loan approval reasoning is frozen in PDFs and forgotten, even as conditions change**.
+While banks continuously monitor loan performance, the original reasons a loan was approved are typically frozen in PDFs and never revisited — even as conditions change.
 
 Instead of scoring risk or predicting defaults, ART keeps the *original approval logic* visible, time-aware, and reviewable — enabling banks to govern *why* a loan was approved, not just *how it performs*.
 
@@ -15,7 +14,7 @@ In commercial lending:
 
 - Loan approvals rely heavily on **qualitative reasoning** (market position, management strength, regulatory stability).
 - This reasoning lives in **credit memos (PDFs)** and is rarely revisited.
-- Over time, assumptions quietly become outdated — without triggering traditional Early Warning Systems.
+- As a result, assumptions quietly become outdated without triggering traditional Early Warning Systems — creating a blind spot in governance.
 - When issues emerge, institutions face **audit gaps, governance risk, and regulatory scrutiny**.
 
 There is currently **no systematic way to track whether approval logic itself is still valid**.
@@ -25,6 +24,7 @@ There is currently **no systematic way to track whether approval logic itself is
 ## 💡 The Solution
 
 ART introduces **time-aware governance for qualitative loan approval logic**.
+It is not analytics software — it is governance infrastructure.
 
 It transforms static approval rationales into **structured, reviewable objects** that:
 
@@ -37,7 +37,7 @@ ART augments — not replaces — professional judgment.
 
 ---
 
-## 🔍 What ART Does
+## 🔍 What ART Does (and Why It’s Different)
 
 ### 1. Import Approval Reasoning (Demo Proxy)
 - Ingests Credit Memo PDFs (demo proxy for LOS integration)
@@ -50,8 +50,7 @@ ART augments — not replaces — professional judgment.
 - Shows how old each piece of logic is
 
 ### 3. Time-Based Staleness Tracking
-Each rationale is classified purely by time since last human review:
-
+Each rationale is classified purely by time since last human review — not risk models or predictions:
 - **Fresh** – reviewed within 30 days  
 - **Review Due** – 31–90 days  
 - **Stale** – over 90 days  
@@ -71,8 +70,7 @@ Each rationale is classified purely by time since last human review:
 
 ## 🚫 What ART Explicitly Does NOT Do
 
-ART intentionally avoids:
-
+ART intentionally avoids automation where human judgment is required:
 - Credit scoring or default prediction
 - Automated alerts or notifications
 - Lending decisions or recommendations
@@ -89,7 +87,7 @@ This keeps ART compliant, auditable, and regulator-friendly.
 - Commercial bank **Credit Officers**
 - **Portfolio Managers**
 - **Risk Governance & Audit Teams**
-- Institutions managing **low-volume, high-value loans**
+- Institutions managing **low-volume, high-value commercial loans**
 
 ---
 
@@ -97,7 +95,7 @@ This keeps ART compliant, auditable, and regulator-friendly.
 
 ART solves a real governance gap in modern lending:
 
-- Prevents “zombie logic” — outdated approval assumptions that persist unnoticed
+- Prevents “zombie logic” — outdated approval assumptions that persist unnoticed inside active loan books
 - Improves audit readiness and regulatory defensibility
 - Aligns qualitative judgment with lifecycle governance
 - Scales across portfolios without increasing manual workload
@@ -159,4 +157,4 @@ Approval Rationale Tracker reframes loan monitoring:
 > From **“Is the borrower performing?”**  
 > to **“Is our original reasoning still valid?”**
 
-ART brings accountability, memory, and governance to the most human part of lending — **judgment itself**.
+ART brings accountability, memory, and governance to the most human — and least governed — part of lending: judgment itself.
